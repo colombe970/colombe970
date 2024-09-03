@@ -1,0 +1,77 @@
+body{
+	margin: 0PX;
+	padding: 0PX;
+	width: 100%;
+}
+ul{
+	float: right;
+		margin: -40px 1px; 
+}
+ul li{
+	display: inline-flex;
+
+
+}
+ul li a{
+	padding: 5px 20px;
+	margin: -50px 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	transition: 0.5s;
+}
+ul li a:hover{
+	color: blue;
+}
+fieldset{
+	background: black;
+}
+.logo{
+	color: white;
+	text-transform: uppercase;
+}
+.for{
+	display: flex;
+	padding: 15px 20px;
+}
+.for p{
+	padding: 15px 70px;
+	border: 1px solid lightgreen;
+	margin: 50px;
+	border-radius: 17px;
+}
+.par p{
+	text-align: center;
+	background: lightblue;
+}
+.inp button{
+	background-color: blue;
+	border-radius: 10px;
+	height: 35px;
+	widows: 200px;
+	cursor: pointer;
+}
+
+.fil{
+	background-color: white;
+	display: flex;
+	border: none;
+}
+.fil p{
+	text-align: right;
+	margin-bottom: 0px;
+}
+.fil img{
+	margin-left: 30px;
+}
+
+.inp{
+	display: flex;
+	padding:20px 25px;
+	margin:10px 400px;
+	background-color: skyblue;
+}
+.inp input{
+border-radius: 10px;
+margin: 0px -2px;
+}
