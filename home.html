@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiverr Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-links li {
+    display: inline;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.join-btn {
+    background-color: #1dbf73;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover  #0a693d;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section .content {
+    max-width: 600px;
+    font-size: 32px;
+    
+   
+}
+
+.search-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    height: 35px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1dbf73;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Fiverr</a>
+            <ul class="menu-links">
+                <li><a href="#">Fiverr Business</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Become a Seller</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#" class="join-btn">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="content">
+            <h1>Find the right <em style="color: #1dbf73;">freelance</em> service, right away</h1>
+            <form action="#" class="search-form">
+                <input type="text" placeholder="What service are you looking for today?">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
